@@ -1,0 +1,527 @@
+:root {
+  --bg: #0b1220;
+  --panel: rgba(255, 255, 255, 0.06);
+  --panel2: rgba(255, 255, 255, 0.09);
+  --text: rgba(255, 255, 255, 0.92);
+  --muted: rgba(255, 255, 255, 0.7);
+  --muted2: rgba(255, 255, 255, 0.55);
+  --border: rgba(255, 255, 255, 0.12);
+  --accent: #7dd3fc;
+  --accent2: #a78bfa;
+  --accent3: #fbbf24;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica,
+    Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  color: var(--text);
+  background: radial-gradient(1200px 800px at 20% 10%, rgba(167, 139, 250, 0.18), transparent 55%),
+    radial-gradient(1200px 800px at 80% 20%, rgba(125, 211, 252, 0.16), transparent 55%),
+    radial-gradient(800px 600px at 50% 80%, rgba(251, 191, 36, 0.08), transparent 55%),
+    var(--bg);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: min(1100px, calc(100% - 32px));
+  margin: 0 auto;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border);
+  background: rgba(11, 18, 32, 0.68);
+}
+
+.header .container {
+  padding: 18px 0;
+  display: grid;
+  gap: 14px;
+}
+
+.brand {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+}
+
+.brand__title {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+.brand__subtitle {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.controls {
+  display: grid;
+  grid-template-columns: 1fr 170px 170px;
+  gap: 12px;
+}
+
+.control {
+  display: grid;
+  gap: 6px;
+}
+
+.control__label {
+  color: var(--muted2);
+  font-size: 12px;
+}
+
+.control__input,
+.control__select {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text);
+  outline: none;
+}
+.control__textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text);
+  outline: none;
+  resize: vertical;
+  font: inherit;
+}
+.control__input:focus,
+.control__select:focus,
+.control__textarea:focus {
+  border-color: rgba(125, 211, 252, 0.55);
+  box-shadow: 0 0 0 4px rgba(125, 211, 252, 0.12);
+}
+
+.main {
+  padding: 22px 0 38px;
+}
+
+.meta {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 14px;
+}
+
+.flow {
+  margin-bottom: 16px;
+  padding: 18px;
+  border: 1px solid rgba(148, 163, 184, 0.24);
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgba(35, 44, 72, 0.62), rgba(20, 35, 51, 0.72));
+  box-shadow: var(--shadow);
+}
+
+.flow__head {
+  display: grid;
+  gap: 4px;
+  margin-bottom: 16px;
+}
+
+.flow__title {
+  font-size: 17px;
+  font-weight: 800;
+  letter-spacing: 0.2px;
+  color: rgba(255, 255, 255, 0.96);
+}
+
+.flow__hint {
+  font-size: 14px;
+  line-height: 1.55;
+  color: rgba(226, 232, 240, 0.72);
+}
+
+.flow__nav {
+  display: block;
+}
+
+.flowCardGrid {
+  display: grid;
+  gap: 12px;
+}
+
+.flowCardGrid__row {
+  display: grid;
+  gap: 12px;
+}
+
+.flowCardGrid__row--top {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.flowCardGrid__row--bottom {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.flowCard {
+  text-align: left;
+  border-radius: 14px;
+  border: 1px solid rgba(148, 163, 184, 0.22);
+  background: rgba(15, 23, 42, 0.26);
+  color: var(--text);
+  min-height: 104px;
+  padding: 18px 16px 16px;
+  cursor: pointer;
+  transition: transform 0.16s ease, border-color 0.16s ease, background 0.16s ease, box-shadow 0.16s ease;
+}
+
+.flowCard:hover {
+  transform: translateY(-1px);
+  border-color: rgba(96, 165, 250, 0.46);
+  background: rgba(30, 41, 59, 0.48);
+}
+
+.flowCard.is-active {
+  border-color: rgba(96, 165, 250, 0.78);
+  background: linear-gradient(
+    135deg,
+    rgba(96, 165, 250, 0.22),
+    rgba(99, 102, 241, 0.12)
+  );
+  box-shadow: 0 0 0 1px rgba(96, 165, 250, 0.22) inset, 0 14px 30px rgba(15, 23, 42, 0.22);
+}
+
+/* 拉美流程卡片使用金色高亮 */
+.flowCard.is-latam.is-active {
+  border-color: rgba(251, 191, 36, 0.52);
+  background: linear-gradient(
+    135deg,
+    rgba(251, 191, 36, 0.12),
+    rgba(167, 139, 250, 0.06)
+  );
+  box-shadow: 0 0 0 1px rgba(251, 191, 36, 0.14) inset;
+}
+
+.flowCard.is-latam:hover {
+  border-color: rgba(251, 191, 36, 0.38);
+}
+
+.flowCard__title {
+  font-size: 17px;
+  line-height: 1.2;
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.96);
+}
+
+.flowCard__desc {
+  margin-top: 12px;
+  font-size: 14px;
+  line-height: 1.5;
+  color: rgba(226, 232, 240, 0.76);
+}
+
+.status {
+  color: var(--muted);
+  font-size: 13px;
+}
+.hint {
+  color: var(--muted2);
+  font-size: 12px;
+}
+
+.toolBar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 4px;
+}
+
+.toolBar__hint {
+  color: var(--muted2);
+  font-size: 12px;
+}
+
+.list {
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.list__head,
+.row {
+  display: grid;
+  grid-template-columns: 1.4fr 0.6fr 0.8fr;
+  gap: 10px;
+  align-items: center;
+}
+
+.list__head {
+  padding: 12px 14px;
+  background: rgba(255, 255, 255, 0.06);
+  border-bottom: 1px solid var(--border);
+  color: var(--muted2);
+  font-size: 12px;
+}
+
+.row {
+  padding: 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  cursor: pointer;
+}
+.row:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+.row:last-child {
+  border-bottom: none;
+}
+
+.termLine {
+  display: grid;
+  gap: 4px;
+}
+.termLine__top {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+.termLine__primary {
+  font-size: 15px;
+  font-weight: 650;
+}
+.termLine__secondary {
+  font-size: 13px;
+  color: var(--muted);
+}
+.termLine__abbr {
+  font-size: 12px;
+  color: rgba(167, 139, 250, 0.95);
+  border: 1px solid rgba(167, 139, 250, 0.35);
+  background: rgba(167, 139, 250, 0.09);
+  padding: 2px 8px;
+  border-radius: 999px;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(125, 211, 252, 0.28);
+  background: rgba(125, 211, 252, 0.08);
+  color: rgba(125, 211, 252, 0.95);
+  font-size: 12px;
+  line-height: 18px;
+  white-space: nowrap;
+}
+.pill--muted {
+  border-color: rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--muted);
+}
+
+/* 拉美分类的 pill 使用金色 */
+.col--category .pill[style*="拉美"] {
+  border-color: rgba(251, 191, 36, 0.28);
+  background: rgba(251, 191, 36, 0.08);
+  color: rgba(251, 191, 36, 0.95);
+}
+
+.tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.dialog {
+  width: min(980px, calc(100% - 24px));
+  border: none;
+  padding: 0;
+  background: transparent;
+}
+.dialog::backdrop {
+  background: rgba(0, 0, 0, 0.65);
+}
+.dialog__content {
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  background: rgba(11, 18, 32, 0.92);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+.dialog__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 12px;
+  padding: 14px 14px 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.dialog__title {
+  font-size: 18px;
+  font-weight: 750;
+}
+.dialog__subtitle {
+  color: var(--muted);
+  font-size: 12px;
+  margin-top: 4px;
+}
+.dialog__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  padding: 14px;
+}
+.panel {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.03);
+}
+.panel__head {
+  padding: 10px 12px;
+  font-size: 12px;
+  color: var(--muted2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.04);
+}
+.panel__body {
+  padding: 12px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--text);
+  white-space: pre-wrap;
+}
+.dialog__foot {
+  padding: 0 14px 14px;
+}
+.dialog__meta {
+  color: var(--muted2);
+  font-size: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding-top: 12px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--text);
+  padding: 8px 12px;
+  cursor: pointer;
+}
+.btn:hover {
+  background: rgba(255, 255, 255, 0.09);
+}
+.btn--ghost {
+  background: transparent;
+}
+.btn--primary {
+  border-color: rgba(125, 211, 252, 0.42);
+  background: linear-gradient(135deg, rgba(125, 211, 252, 0.18), rgba(167, 139, 250, 0.12));
+}
+.btn--primary:hover {
+  background: linear-gradient(135deg, rgba(125, 211, 252, 0.24), rgba(167, 139, 250, 0.18));
+}
+
+.dialog--form {
+  width: min(860px, calc(100% - 24px));
+}
+
+.customForm__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  padding: 14px;
+}
+
+.customForm__field {
+  display: grid;
+  gap: 6px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.customForm__field--full {
+  grid-column: 1 / -1;
+}
+
+.customForm__actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 0 14px 14px;
+}
+
+.footer {
+  border-top: 1px solid var(--border);
+  background: rgba(11, 18, 32, 0.55);
+}
+.footer__inner {
+  padding: 14px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  color: var(--muted2);
+  font-size: 12px;
+}
+.footer__links {
+  display: flex;
+  gap: 12px;
+}
+
+@media (max-width: 860px) {
+  .controls {
+    grid-template-columns: 1fr;
+  }
+  .flowCardGrid__row--top,
+  .flowCardGrid__row--bottom {
+    grid-template-columns: 1fr;
+  }
+  .flowCard {
+    min-height: 92px;
+  }
+  .list__head,
+  .row {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  .dialog__grid {
+    grid-template-columns: 1fr;
+  }
+  .customForm__grid {
+    grid-template-columns: 1fr;
+  }
+  .customForm__actions {
+    justify-content: stretch;
+  }
+  .customForm__actions .btn {
+    flex: 1;
+  }
+}

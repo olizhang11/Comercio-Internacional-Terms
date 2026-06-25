@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>国际贸易术语库｜中文-西班牙语对照（含拉美）</title>
+    <meta
+      name="description"
+      content="中文-西班牙语双语对照国际贸易术语库：覆盖西班牙及拉美西语国家（智利、墨西哥、阿根廷、哥伦比亚、秘鲁），支持检索、筛选、术语详情与缩写解释。"
+    />
+    <link rel="stylesheet" href="./styles.css?v=20260623-custom-term-v1" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="brand">
+          <div class="brand__title">国际贸易术语库</div>
+          <div class="brand__subtitle">中文 · Español 双语对照 · 含拉美西语国家</div>
+        </div>
+
+        <div class="controls">
+          <label class="control">
+            <span class="control__label">检索</span>
+            <input
+              id="q"
+              class="control__input"
+              type="search"
+              placeholder="可输入中文 / 西语 / 缩写 / 国家名（如 FOB, SII, SAT, AFIP）"
+              autocomplete="off"
+            />
+          </label>
+
+          <label class="control">
+            <span class="control__label">分类</span>
+            <select id="category" class="control__select">
+              <option value="">全部</option>
+              <option value="业务流程">业务流程</option>
+              <option value="企业组织">企业组织</option>
+            </select>
+          </label>
+
+          <label class="control control--toggle">
+            <span class="control__label">显示</span>
+            <select id="viewMode" class="control__select">
+              <option value="bilingual" selected>双语对照</option>
+              <option value="zh">仅中文</option>
+              <option value="es">仅西语</option>
+            </select>
+          </label>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container">
+        <div class="meta">
+          <div id="status" class="status">正在加载术语数据…</div>
+          <div class="hint">
+            提示：点击术语可查看详情。术语解释为学习与沟通参考，非任何组织官方释义。已覆盖西班牙及拉美西语国家（智利、墨西哥、阿根廷、哥伦比亚、秘鲁）。
+          </div>
+          <div class="toolBar" aria-label="自定义术语工具">
+            <button id="openCustomTerm" class="btn btn--primary" type="button">新增术语</button>
+            <button id="exportCustomTerms" class="btn btn--ghost" type="button">导出自定义术语</button>
+            <span id="customTermHint" class="toolBar__hint">自定义术语会保存在当前浏览器本地。</span>
+          </div>
+        </div>
+
+        <section class="flow" aria-label="按业务流程浏览">
+          <div class="flow__head">
+            <div class="flow__title">按业务流程浏览</div>
+            <div class="flow__hint">可先按流程阶段预筛选，再配合关键词与分类继续缩小范围。</div>
+          </div>
+          <div id="flowNav" class="flow__nav"></div>
+        </section>
+
+        <section class="list" aria-label="术语列表">
+          <div class="list__head">
+            <div class="col col--term">术语</div>
+            <div class="col col--category">分类</div>
+            <div class="col col--tags">标签</div>
+          </div>
+          <div id="list" class="list__body"></div>
+        </section>
+      </div>
+    </main>
+
+    <dialog id="detailDialog" class="dialog">
+      <div class="dialog__content">
+        <div class="dialog__head">
+          <div>
+            <div id="detailTitle" class="dialog__title"></div>
+            <div id="detailCategory" class="dialog__subtitle"></div>
+          </div>
+          <button id="closeDialog" class="btn btn--ghost" type="button">关闭</button>
+        </div>
+
+        <div class="dialog__grid">
+          <div class="panel">
+            <div class="panel__head">中文</div>
+            <div id="detailZh" class="panel__body"></div>
+          </div>
+          <div class="panel">
+            <div class="panel__head">Español</div>
+            <div id="detailEs" class="panel__body"></div>
+          </div>
+        </div>
+
+        <div class="dialog__foot">
+          <div id="detailMeta" class="dialog__meta"></div>
+        </div>
+      </div>
+    </dialog>
+
+    <dialog id="customTermDialog" class="dialog dialog--form">
+      <form id="customTermForm" class="dialog__content customForm" method="dialog">
+        <div class="dialog__head">
+          <div>
+            <div class="dialog__title">新增自定义术语</div>
+            <div class="dialog__subtitle">填写中文和西语信息后，会立即加入术语库并参与检索。</div>
+          </div>
+          <button id="closeCustomTerm" class="btn btn--ghost" type="button">关闭</button>
+        </div>
+
+        <div class="customForm__grid">
+          <label class="customForm__field">
+            <span>分类</span>
+            <select id="customCategory" class="control__select" required>
+              <option value="业务流程">业务流程</option>
+              <option value="企业组织">企业组织</option>
+            </select>
+          </label>
+          <label class="customForm__field">
+            <span>缩写（可选）</span>
+            <input id="customAbbr" class="control__input" placeholder="如 RUC、CEO、NCM" />
+          </label>
+          <label class="customForm__field">
+            <span>中文术语</span>
+            <input id="customZhTerm" class="control__input" required placeholder="请输入中文术语" />
+          </label>
+          <label class="customForm__field">
+            <span>西语术语</span>
+            <input id="customEsTerm" class="control__input" required placeholder="请输入西语术语" />
+          </label>
+          <label class="customForm__field customForm__field--full">
+            <span>标签（用逗号分隔）</span>
+            <input id="customTags" class="control__input" placeholder="如 关务/Aduanas, 巴西/Brasil" />
+          </label>
+          <label class="customForm__field customForm__field--full">
+            <span>中文释义</span>
+            <textarea id="customZhDefinition" class="control__textarea" rows="3" required placeholder="请输入中文释义"></textarea>
+          </label>
+          <label class="customForm__field customForm__field--full">
+            <span>西语释义</span>
+            <textarea id="customEsDefinition" class="control__textarea" rows="3" required placeholder="Ingrese la definición en español"></textarea>
+          </label>
+          <label class="customForm__field">
+            <span>中文例句（可选）</span>
+            <textarea id="customZhExample" class="control__textarea" rows="2" placeholder="请输入中文例句"></textarea>
+          </label>
+          <label class="customForm__field">
+            <span>西语例句（可选）</span>
+            <textarea id="customEsExample" class="control__textarea" rows="2" placeholder="Ingrese un ejemplo en español"></textarea>
+          </label>
+        </div>
+
+        <div class="customForm__actions">
+          <button id="resetCustomTerm" class="btn btn--ghost" type="button">清空</button>
+          <button class="btn btn--primary" type="submit">保存术语</button>
+        </div>
+      </form>
+    </dialog>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div>© 国际贸易术语库 · 中文-西班牙语双语对照 · 含拉美西语国家</div>
+        <div class="footer__links">
+          <a href="./README.md" target="_blank" rel="noopener noreferrer">使用说明</a>
+          <a href="./data/terms.json" target="_blank" rel="noopener noreferrer">数据（JSON）</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./app.js?v=20260623-custom-term-v1" defer></script>
+  </body>
+</html>
