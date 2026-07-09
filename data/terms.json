@@ -21844,5 +21844,2043 @@
       "definition": "Repuesto para automóvil.",
       "example": ""
     }
+  },
+  {
+    "id": "fwd_空运费",
+    "abbr": "A/F",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "空运费",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Air Freight。Flete aéreo básico",
+      "example": ""
+    },
+    "es": {
+      "term": "A/F",
+      "aliases": [
+        "Air Freight"
+      ],
+      "definition": "Flete aéreo básico",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_原产地收货费华南",
+    "abbr": "ORC",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "原产地收货费（华南）",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Origin Receiving Charge。Tarifa de recepción de carga en puerto de origen",
+      "example": ""
+    },
+    "es": {
+      "term": "ORC",
+      "aliases": [
+        "Origin Receiving Charge"
+      ],
+      "definition": "Tarifa de recepción de carga en puerto de origen",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_货币贬值附加费",
+    "abbr": "CAF",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "货币贬值附加费",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Currency Adjustment Factor。Recargo por fluctuación de tipo de cambio",
+      "example": ""
+    },
+    "es": {
+      "term": "CAF",
+      "aliases": [
+        "Currency Adjustment Factor"
+      ],
+      "definition": "Recargo por fluctuación de tipo de cambio",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_旺季附加费",
+    "abbr": "PSS",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "旺季附加费",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Peak Season Surcharge。Recargo por temporada alta de transporte",
+      "example": ""
+    },
+    "es": {
+      "term": "PSS",
+      "aliases": [
+        "Peak Season Surcharge"
+      ],
+      "definition": "Recargo por temporada alta de transporte",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_港口拥堵附加费",
+    "abbr": "PCS",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "港口拥堵附加费",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Port Congestion Surcharge。Recargo por congestión portuaria",
+      "example": ""
+    },
+    "es": {
+      "term": "PCS",
+      "aliases": [
+        "Port Congestion Surcharge"
+      ],
+      "definition": "Recargo por congestión portuaria",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_滞港费码头超期堆柜",
+    "abbr": "DEM",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "滞港费（码头超期堆柜）",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Demurrage。Multa por exceso de estancia de contenedor en patio portuario",
+      "example": ""
+    },
+    "es": {
+      "term": "DEM",
+      "aliases": [
+        "Demurrage"
+      ],
+      "definition": "Multa por exceso de estancia de contenedor en patio portuario",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_滞箱费提柜超期未还",
+    "abbr": "DET",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "滞箱费（提柜超期未还）",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Detention。Multa por retardo en devolución del contenedor al transportista",
+      "example": ""
+    },
+    "es": {
+      "term": "DET",
+      "aliases": [
+        "Detention"
+      ],
+      "definition": "Multa por retardo en devolución del contenedor al transportista",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_目的港提货费",
+    "abbr": "DDC",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "目的港提货费",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Destination Delivery Charge。Tarifa de entrega en terminal de destino",
+      "example": ""
+    },
+    "es": {
+      "term": "DDC",
+      "aliases": [
+        "Destination Delivery Charge"
+      ],
+      "definition": "Tarifa de entrega en terminal de destino",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_均一费率不分货类运价",
+    "abbr": "FAK",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "均一费率（不分货类运价）",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Freight All Kinds。Tarifa uniforme sin distinción de tipo de mercancía",
+      "example": ""
+    },
+    "es": {
+      "term": "FAK",
+      "aliases": [
+        "Freight All Kinds"
+      ],
+      "definition": "Tarifa uniforme sin distinción de tipo de mercancía",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_增值税",
+    "abbr": "VAT",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "增值税",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Value Added Tax。Impuesto al valor agregado (IVA)",
+      "example": ""
+    },
+    "es": {
+      "term": "VAT",
+      "aliases": [
+        "Value Added Tax"
+      ],
+      "definition": "Impuesto al valor agregado (IVA)",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_运费预付",
+    "abbr": "PPD/PP",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "运费预付",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Prepaid。Flete prepagado en el puerto de origen",
+      "example": ""
+    },
+    "es": {
+      "term": "PPD/PP",
+      "aliases": [
+        "Prepaid"
+      ],
+      "definition": "Flete prepagado en el puerto de origen",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_运费到付",
+    "abbr": "COL/CC",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "运费到付",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Collect。Flete cobrable en el puerto de destino",
+      "example": ""
+    },
+    "es": {
+      "term": "COL/CC",
+      "aliases": [
+        "Collect"
+      ],
+      "definition": "Flete cobrable en el puerto de destino",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_预计开船_离港时间",
+    "abbr": "ETD",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "预计开船 / 离港时间",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Estimated Time of Departure。Hora estimada de salida del buque/aeropuerto",
+      "example": ""
+    },
+    "es": {
+      "term": "ETD",
+      "aliases": [
+        "Estimated Time of Departure"
+      ],
+      "definition": "Hora estimada de salida del buque/aeropuerto",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_截关截止时间",
+    "abbr": "ETC",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "截关截止时间",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Estimated Time of Closing。Hora límite estimada para cerrar la aduana de embarque",
+      "example": ""
+    },
+    "es": {
+      "term": "ETC",
+      "aliases": [
+        "Estimated Time of Closing"
+      ],
+      "definition": "Hora límite estimada para cerrar la aduana de embarque",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_截提单补料时间",
+    "abbr": "SI Cut-off (SI Closing Time)",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "截提单补料时间",
+      "aliases": [],
+      "definition": "货代术语。Plazo límite para enviar instrucciones de embarque",
+      "example": ""
+    },
+    "es": {
+      "term": "SI Cut-off (SI Closing Time)",
+      "aliases": [],
+      "definition": "Plazo límite para enviar instrucciones de embarque",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_装货港",
+    "abbr": "POL",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "装货港",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Port of Loading。Puerto de carga, puerto de embarque",
+      "example": ""
+    },
+    "es": {
+      "term": "POL",
+      "aliases": [
+        "Port of Loading"
+      ],
+      "definition": "Puerto de carga, puerto de embarque",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_中转转运",
+    "abbr": "T/S",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "中转转运",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Transshipment。Transbordo de mercancía en puerto intermedio",
+      "example": ""
+    },
+    "es": {
+      "term": "T/S",
+      "aliases": [
+        "Transshipment"
+      ],
+      "definition": "Transbordo de mercancía en puerto intermedio",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_船东主提单",
+    "abbr": "MBL",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "船东主提单",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Master Bill of Lading）。Conocimiento de embarque maestro emitido por naviera",
+      "example": ""
+    },
+    "es": {
+      "term": "MBL",
+      "aliases": [
+        "Master Bill of Lading）"
+      ],
+      "definition": "Conocimiento de embarque maestro emitido por naviera",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_货代分提单",
+    "abbr": "HBL",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "货代分提单",
+      "aliases": [],
+      "definition": "货代术语，英文全称 House Bill of Lading。Conocimiento de embarque doméstico emitido por transitario",
+      "example": ""
+    },
+    "es": {
+      "term": "HBL",
+      "aliases": [
+        "House Bill of Lading"
+      ],
+      "definition": "Conocimiento de embarque doméstico emitido por transitario",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_订舱单下货纸",
+    "abbr": "S/O",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "订舱单、下货纸",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Shipping Order。Orden de reserva de espacio en el buque",
+      "example": ""
+    },
+    "es": {
+      "term": "S/O",
+      "aliases": [
+        "Shipping Order"
+      ],
+      "definition": "Orden de reserva de espacio en el buque",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_多式联运单",
+    "abbr": "MTD",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "多式联运单",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Multimodal Transport Document。Documento de transporte multimodal marítimo-terrestre-aéreo",
+      "example": ""
+    },
+    "es": {
+      "term": "MTD",
+      "aliases": [
+        "Multimodal Transport Document"
+      ],
+      "definition": "Documento de transporte multimodal marítimo-terrestre-aéreo",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_舱单",
+    "abbr": "MF",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "舱单",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Manifest。Manifiesto de carga declarado ante aduana",
+      "example": ""
+    },
+    "es": {
+      "term": "MF",
+      "aliases": [
+        "Manifest"
+      ],
+      "definition": "Manifiesto de carga declarado ante aduana",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_危险品安全技术说明书",
+    "abbr": "MSDS",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "危险品安全技术说明书",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Material Safety Data Sheet。Ficha de datos de seguridad de productos peligrosos",
+      "example": ""
+    },
+    "es": {
+      "term": "MSDS",
+      "aliases": [
+        "Material Safety Data Sheet"
+      ],
+      "definition": "Ficha de datos de seguridad de productos peligrosos",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_中国出入境检验检疫单",
+    "abbr": "CIQ",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "中国出入境检验检疫单",
+      "aliases": [],
+      "definition": "货代术语，英文全称 China Inspection and Quarantine。Inspección y cuarentena de entrada y salida de China",
+      "example": ""
+    },
+    "es": {
+      "term": "CIQ",
+      "aliases": [
+        "China Inspection and Quarantine"
+      ],
+      "definition": "Inspección y cuarentena de entrada y salida de China",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_销售合同",
+    "abbr": "SC",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "销售合同",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Sales Contract。Contrato de venta internacional entre partes",
+      "example": ""
+    },
+    "es": {
+      "term": "SC",
+      "aliases": [
+        "Sales Contract"
+      ],
+      "definition": "Contrato de venta internacional entre partes",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_总数量合计",
+    "abbr": "TTL",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "总数量、合计",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Total。Total, suma global de mercancías",
+      "example": ""
+    },
+    "es": {
+      "term": "TTL",
+      "aliases": [
+        "Total"
+      ],
+      "definition": "Total, suma global de mercancías",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_数量",
+    "abbr": "QTY",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "数量",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Quantity。Cantidad de unidades de mercancía",
+      "example": ""
+    },
+    "es": {
+      "term": "QTY",
+      "aliases": [
+        "Quantity"
+      ],
+      "definition": "Cantidad de unidades de mercancía",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_件数",
+    "abbr": "PCS",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "件数",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Pieces。Piezas, unidades individuales de carga",
+      "example": ""
+    },
+    "es": {
+      "term": "PCS",
+      "aliases": [
+        "Pieces"
+      ],
+      "definition": "Piezas, unidades individuales de carga",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_包装件总数",
+    "abbr": "PKGS",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "包装件总数",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Packages。Bultos, total de embalajes",
+      "example": ""
+    },
+    "es": {
+      "term": "PKGS",
+      "aliases": [
+        "Packages"
+      ],
+      "definition": "Bultos, total de embalajes",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_货主装箱计数",
+    "abbr": "SLAC",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "货主装箱、计数",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Shipper’s Load And Count。Carga y recuento realizados por el remitente",
+      "example": ""
+    },
+    "es": {
+      "term": "SLAC",
+      "aliases": [
+        "Shipper’s Load And Count"
+      ],
+      "definition": "Carga y recuento realizados por el remitente",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_据货主申报内装货物",
+    "abbr": "STC",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "据货主申报内装货物",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Said To Contain。Según declaración del cargador el contenido interior",
+      "example": ""
+    },
+    "es": {
+      "term": "STC",
+      "aliases": [
+        "Said To Contain"
+      ],
+      "definition": "Según declaración del cargador el contenido interior",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_货主装箱计数并施封",
+    "abbr": "SLCAS",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "货主装箱、计数并施封",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Shipper’s Load Count And Seal。Carga, recuento y precintado por el remitente",
+      "example": ""
+    },
+    "es": {
+      "term": "SLCAS",
+      "aliases": [
+        "Shipper’s Load Count And Seal"
+      ],
+      "definition": "Carga, recuento y precintado por el remitente",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_体积",
+    "abbr": "VOL",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "体积",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Volume。Volumen de la mercancía en metros cúbicos",
+      "example": ""
+    },
+    "es": {
+      "term": "VOL",
+      "aliases": [
+        "Volume"
+      ],
+      "definition": "Volumen de la mercancía en metros cúbicos",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_集装箱_货柜",
+    "abbr": "CTNR",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "集装箱 / 货柜",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Container。Contenedor, unidad de carga marítima",
+      "example": ""
+    },
+    "es": {
+      "term": "CTNR",
+      "aliases": [
+        "Container"
+      ],
+      "definition": "Contenedor, unidad de carga marítima",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_船公司自有柜",
+    "abbr": "COC",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "船公司自有柜",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Carrier’s Own Container。Contenedor propiedad de la naviera",
+      "example": ""
+    },
+    "es": {
+      "term": "COC",
+      "aliases": [
+        "Carrier’s Own Container"
+      ],
+      "definition": "Contenedor propiedad de la naviera",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_货主自备柜",
+    "abbr": "SOC",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "货主自备柜",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Shipper’s Own Container。Contenedor propiedad del cargador",
+      "example": ""
+    },
+    "es": {
+      "term": "SOC",
+      "aliases": [
+        "Shipper’s Own Container"
+      ],
+      "definition": "Contenedor propiedad del cargador",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_20_尺标准柜当量",
+    "abbr": "TEU",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "20 尺标准柜当量",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Twenty-foot Equivalent Unit。Unidad equivalente de 20 pies, medida estándar de contenedores",
+      "example": ""
+    },
+    "es": {
+      "term": "TEU",
+      "aliases": [
+        "Twenty-foot Equivalent Unit"
+      ],
+      "definition": "Unidad equivalente de 20 pies, medida estándar de contenedores",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_40_尺柜当量",
+    "abbr": "FEU",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "40 尺柜当量",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Forty-foot Equivalent Unit。Unidad equivalente de 40 pies",
+      "example": ""
+    },
+    "es": {
+      "term": "FEU",
+      "aliases": [
+        "Forty-foot Equivalent Unit"
+      ],
+      "definition": "Unidad equivalente de 40 pies",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_普通干货柜",
+    "abbr": "GP",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "普通干货柜",
+      "aliases": [],
+      "definition": "货代术语，英文全称 General Purpose。Contenedor general para mercancía seca",
+      "example": ""
+    },
+    "es": {
+      "term": "GP",
+      "aliases": [
+        "General Purpose"
+      ],
+      "definition": "Contenedor general para mercancía seca",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_高柜",
+    "abbr": "HC/HQ",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "高柜",
+      "aliases": [],
+      "definition": "货代术语，英文全称 High Cube。Contenedor de alto volumen (alta caja)",
+      "example": ""
+    },
+    "es": {
+      "term": "HC/HQ",
+      "aliases": [
+        "High Cube"
+      ],
+      "definition": "Contenedor de alto volumen (alta caja)",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_冷冻柜",
+    "abbr": "RF",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "冷冻柜",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Reefer Container。Contenedor frigorífico para productos refrigerados",
+      "example": ""
+    },
+    "es": {
+      "term": "RF",
+      "aliases": [
+        "Reefer Container"
+      ],
+      "definition": "Contenedor frigorífico para productos refrigerados",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_高冷冻柜",
+    "abbr": "RH （Reefer High Cube）",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "高冷冻柜",
+      "aliases": [],
+      "definition": "货代术语。Contenedor frigorífico de alto volumen",
+      "example": ""
+    },
+    "es": {
+      "term": "RH （Reefer High Cube）",
+      "aliases": [],
+      "definition": "Contenedor frigorífico de alto volumen",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_开顶柜",
+    "abbr": "OT",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "开顶柜",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Open Top。Contenedor sin techo abierto",
+      "example": ""
+    },
+    "es": {
+      "term": "OT",
+      "aliases": [
+        "Open Top"
+      ],
+      "definition": "Contenedor sin techo abierto",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_框架柜",
+    "abbr": "FR",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "框架柜",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Flat Rack。Contenedor bastidor para carga sobredimensionada",
+      "example": ""
+    },
+    "es": {
+      "term": "FR",
+      "aliases": [
+        "Flat Rack"
+      ],
+      "definition": "Contenedor bastidor para carga sobredimensionada",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_集装箱堆场",
+    "abbr": "CY",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "集装箱堆场",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Container Yard。Patio de almacenamiento de contenedores",
+      "example": ""
+    },
+    "es": {
+      "term": "CY",
+      "aliases": [
+        "Container Yard"
+      ],
+      "definition": "Patio de almacenamiento de contenedores",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_集装箱货运站",
+    "abbr": "CFS",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "集装箱货运站",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Container Freight Station。Estación de consolidación y desconsolidación de mercancías",
+      "example": ""
+    },
+    "es": {
+      "term": "CFS",
+      "aliases": [
+        "Container Freight Station"
+      ],
+      "definition": "Estación de consolidación y desconsolidación de mercancías",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_堆场到堆场整柜交接",
+    "abbr": "CY-CY (CY to CY)",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "堆场到堆场（整柜交接）",
+      "aliases": [],
+      "definition": "货代术语。Transporte de patio de contenedores a patio de contenedores",
+      "example": ""
+    },
+    "es": {
+      "term": "CY-CY (CY to CY)",
+      "aliases": [],
+      "definition": "Transporte de patio de contenedores a patio de contenedores",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_堆场到站目的港拆柜",
+    "abbr": "CY-CFS (CY to CFS)",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "堆场到站（目的港拆柜）",
+      "aliases": [],
+      "definition": "货代术语。Salida de patio origen, entrega en estación de desconsolidación destino",
+      "example": ""
+    },
+    "es": {
+      "term": "CY-CFS (CY to CFS)",
+      "aliases": [],
+      "definition": "Salida de patio origen, entrega en estación de desconsolidación destino",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_站到站全程拼箱",
+    "abbr": "CFS-CFS (CFS to CFS)",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "站到站（全程拼箱）",
+      "aliases": [],
+      "definition": "货代术语。Consolidación origen hasta desconsolidación destino",
+      "example": ""
+    },
+    "es": {
+      "term": "CFS-CFS (CFS to CFS)",
+      "aliases": [],
+      "definition": "Consolidación origen hasta desconsolidación destino",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_门到门运输",
+    "abbr": "D2D",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "门到门运输",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Door to Door。Transporte desde puerta del remitente hasta puerta del destinatario",
+      "example": ""
+    },
+    "es": {
+      "term": "D2D",
+      "aliases": [
+        "Door to Door"
+      ],
+      "definition": "Transporte desde puerta del remitente hasta puerta del destinatario",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_港到港",
+    "abbr": "P2P",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "港到港",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Port to Port。Transporte únicamente entre puerto carga y puerto descarga",
+      "example": ""
+    },
+    "es": {
+      "term": "P2P",
+      "aliases": [
+        "Port to Port"
+      ],
+      "definition": "Transporte únicamente entre puerto carga y puerto descarga",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_全水路海运",
+    "abbr": "A/W",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "全水路海运",
+      "aliases": [],
+      "definition": "货代术语，英文全称 All Water。Transporte totalmente por vía marítima sin tramo terrestre",
+      "example": ""
+    },
+    "es": {
+      "term": "A/W",
+      "aliases": [
+        "All Water"
+      ],
+      "definition": "Transporte totalmente por vía marítima sin tramo terrestre",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_小型大陆桥联运",
+    "abbr": "MLB",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "小型大陆桥联运",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Mini Land Bridge。Puente terrestre menor, combinación marítimo-terrestre EEUU",
+      "example": ""
+    },
+    "es": {
+      "term": "MLB",
+      "aliases": [
+        "Mini Land Bridge"
+      ],
+      "definition": "Puente terrestre menor, combinación marítimo-terrestre EEUU",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_空运",
+    "abbr": "AIR",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "空运",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Air Transport。Transporte aéreo de mercancías",
+      "example": ""
+    },
+    "es": {
+      "term": "AIR",
+      "aliases": [
+        "Air Transport"
+      ],
+      "definition": "Transporte aéreo de mercancías",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_铁路运输",
+    "abbr": "R/R",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "铁路运输",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Rail Road。Transporte por ferrocarril",
+      "example": ""
+    },
+    "es": {
+      "term": "R/R",
+      "aliases": [
+        "Rail Road"
+      ],
+      "definition": "Transporte por ferrocarril",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_内陆拖车运输",
+    "abbr": "TRK",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "内陆拖车运输",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Trucking。Transporte terrestre en camiones tráiler",
+      "example": ""
+    },
+    "es": {
+      "term": "TRK",
+      "aliases": [
+        "Trucking"
+      ],
+      "definition": "Transporte terrestre en camiones tráiler",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_船东互保协会",
+    "abbr": "P&I (Protection & Indemnity)",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "船东互保协会",
+      "aliases": [],
+      "definition": "货代术语。Mutua de protección e indemnización para navieros",
+      "example": ""
+    },
+    "es": {
+      "term": "P&I (Protection & Indemnity)",
+      "aliases": [],
+      "definition": "Mutua de protección e indemnización para navieros",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_平安险单独海损不赔",
+    "abbr": "FPA",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "平安险（单独海损不赔）",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Free From Particular Average。Seguro sin cobertura por avería particular simple",
+      "example": ""
+    },
+    "es": {
+      "term": "FPA",
+      "aliases": [
+        "Free From Particular Average"
+      ],
+      "definition": "Seguro sin cobertura por avería particular simple",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_水渍险",
+    "abbr": "W.P.A/W.A (With Particular Average)",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "水渍险",
+      "aliases": [],
+      "definition": "货代术语。Seguro con cobertura de avería particular por agua",
+      "example": ""
+    },
+    "es": {
+      "term": "W.P.A/W.A (With Particular Average)",
+      "aliases": [],
+      "definition": "Seguro con cobertura de avería particular por agua",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_单独海损",
+    "abbr": "PA",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "单独海损",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Particular Average。Avería particular solo afecta a una mercancía",
+      "example": ""
+    },
+    "es": {
+      "term": "PA",
+      "aliases": [
+        "Particular Average"
+      ],
+      "definition": "Avería particular solo afecta a una mercancía",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_货运保险",
+    "abbr": "INS",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "货运保险",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Insurance。Seguro de transporte de mercancías",
+      "example": ""
+    },
+    "es": {
+      "term": "INS",
+      "aliases": [
+        "Insurance"
+      ],
+      "definition": "Seguro de transporte de mercancías",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_保险保费",
+    "abbr": "PREM",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "保险保费",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Premium。Prima pagada por el seguro de carga",
+      "example": ""
+    },
+    "es": {
+      "term": "PREM",
+      "aliases": [
+        "Premium"
+      ],
+      "definition": "Prima pagada por el seguro de carga",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_危险物料",
+    "abbr": "HAZMAT",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "危险物料",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Hazardous Material。Materiales peligrosos, sustancias riesgosas",
+      "example": ""
+    },
+    "es": {
+      "term": "HAZMAT",
+      "aliases": [
+        "Hazardous Material"
+      ],
+      "definition": "Materiales peligrosos, sustancias riesgosas",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_国际海运危规",
+    "abbr": "IMDG",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "国际海运危规",
+      "aliases": [],
+      "definition": "货代术语，英文全称 International Maritime Dangerous Goods Code。Código internacional de mercancías peligrosas marítimas",
+      "example": ""
+    },
+    "es": {
+      "term": "IMDG",
+      "aliases": [
+        "International Maritime Dangerous Goods Code"
+      ],
+      "definition": "Código internacional de mercancías peligrosas marítimas",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_中国船级社",
+    "abbr": "CCS",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "中国船级社",
+      "aliases": [],
+      "definition": "货代术语，英文全称 China Classification Society。Sociedad de clasificación naval de China",
+      "example": ""
+    },
+    "es": {
+      "term": "CCS",
+      "aliases": [
+        "China Classification Society"
+      ],
+      "definition": "Sociedad de clasificación naval de China",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_海关",
+    "abbr": "CUS",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "海关",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Customs。Aduana, entidad de control fiscal y fronterizo",
+      "example": ""
+    },
+    "es": {
+      "term": "CUS",
+      "aliases": [
+        "Customs"
+      ],
+      "definition": "Aduana, entidad de control fiscal y fronterizo",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_海关检验检疫",
+    "abbr": "CIQ",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "海关检验检疫",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Customs Inspection & Quarantine。Inspección y cuarentena aduanera fronteriza",
+      "example": ""
+    },
+    "es": {
+      "term": "CIQ",
+      "aliases": [
+        "Customs Inspection & Quarantine"
+      ],
+      "definition": "Inspección y cuarentena aduanera fronteriza",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_无船承运人货代资质",
+    "abbr": "NVOCC",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "无船承运人（货代资质）",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Non-Vessel Operating Common Carrier。Transportista sin buque propio, transitario autorizado",
+      "example": ""
+    },
+    "es": {
+      "term": "NVOCC",
+      "aliases": [
+        "Non-Vessel Operating Common Carrier"
+      ],
+      "definition": "Transportista sin buque propio, transitario autorizado",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_国际航空运输协会",
+    "abbr": "IATA",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "国际航空运输协会",
+      "aliases": [],
+      "definition": "货代术语，英文全称 International Air Transport Association。Asociación internacional de transporte aéreo",
+      "example": ""
+    },
+    "es": {
+      "term": "IATA",
+      "aliases": [
+        "International Air Transport Association"
+      ],
+      "definition": "Asociación internacional de transporte aéreo",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_国际海事组织",
+    "abbr": "IMO",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "国际海事组织",
+      "aliases": [],
+      "definition": "货代术语，英文全称 International Maritime Organization。Organización marítima internacional de regulación naval",
+      "example": ""
+    },
+    "es": {
+      "term": "IMO",
+      "aliases": [
+        "International Maritime Organization"
+      ],
+      "definition": "Organización marítima internacional de regulación naval",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_波罗的海国际航运公会",
+    "abbr": "BIMCO",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "波罗的海国际航运公会",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Baltic and International Maritime Council。Consejo marítimo internacional del mar Báltico",
+      "example": ""
+    },
+    "es": {
+      "term": "BIMCO",
+      "aliases": [
+        "Baltic and International Maritime Council"
+      ],
+      "definition": "Consejo marítimo internacional del mar Báltico",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_第四方物流整合商",
+    "abbr": "4PL",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "第四方物流整合商",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Fourth Party Logistics。Logística de cuartos, gestor integral de cadenas de suministro",
+      "example": ""
+    },
+    "es": {
+      "term": "4PL",
+      "aliases": [
+        "Fourth Party Logistics"
+      ],
+      "definition": "Logística de cuartos, gestor integral de cadenas de suministro",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_船公司船东",
+    "abbr": "SSL",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "船公司、船东",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Steam Ship Line。Naviera, empresa propietaria de buques de carga",
+      "example": ""
+    },
+    "es": {
+      "term": "SSL",
+      "aliases": [
+        "Steam Ship Line"
+      ],
+      "definition": "Naviera, empresa propietaria de buques de carga",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_专业报关行",
+    "abbr": "CHB",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "专业报关行",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Customs House Broker。Agente aduanero autorizado para gestiones fronterizas",
+      "example": ""
+    },
+    "es": {
+      "term": "CHB",
+      "aliases": [
+        "Customs House Broker"
+      ],
+      "definition": "Agente aduanero autorizado para gestiones fronterizas",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_国际航运公会",
+    "abbr": "ICS",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "国际航运公会",
+      "aliases": [],
+      "definition": "货代术语，英文全称 International Chamber of Shipping。Cámara internacional de navegación marítima",
+      "example": ""
+    },
+    "es": {
+      "term": "ICS",
+      "aliases": [
+        "International Chamber of Shipping"
+      ],
+      "definition": "Cámara internacional de navegación marítima",
+      "example": ""
+    }
+  },
+  {
+    "id": "fwd_实际承运人船_航司",
+    "abbr": "ACAR",
+    "category": "业务流程",
+    "tags": [
+      "货代/Transitario",
+      "物流/Logística",
+      "海运/Marítimo",
+      "空运/Aéreo"
+    ],
+    "source": "货代词汇汇",
+    "updatedAt": "2026-07-09",
+    "zh": {
+      "term": "实际承运人（船 / 航司）",
+      "aliases": [],
+      "definition": "货代术语，英文全称 Actual Carrier。Transportista real que opera el buque o avión",
+      "example": ""
+    },
+    "es": {
+      "term": "ACAR",
+      "aliases": [
+        "Actual Carrier"
+      ],
+      "definition": "Transportista real que opera el buque o avión",
+      "example": ""
+    }
   }
 ]
