@@ -743,16 +743,17 @@
       "aliases": [
         "散货拼箱"
       ],
-      "definition": "Less than Container Load，多票货拼装一个集装箱运输。适合货量较小，但通常涉及集拼与拆箱操作，时间与费用结构与整箱不同。",
+      "definition": "多票货拼装一个集装箱运输。适合货量较小，但通常涉及集拼与拆箱操作，时间与费用结构与整箱不同。",
       "example": "货量 2.5 CBM，建议走 LCL 拼箱。",
       "commonMistake": "把 `拼箱` 当成单一时间点或单一步骤处理，忽略它与 cut-off、预约、仓库时窗、尾程和异常处理的联动。",
       "practicalTip": "围绕 `拼箱` 建议提前确认时间节点、预约要求、责任方、异常处理方式和收费口径，并把这些信息写进操作单或邮件。",
       "spainExample": "这票货到 Madrid 仓前，请根据 `拼箱` 提前确认预约时间、尾程承运商和异常处理联系人。"
     },
     "es": {
-      "term": "Carga consolidada",
+      "term": "LCL",
       "aliases": [
-        "LCL"
+        "LCL",
+        "Carga consolidada"
       ],
       "definition": "Less than Container Load. Varias partidas comparten un contenedor. Suele implicar operaciones de consolidación y desconsolidación.",
       "example": "Con 2,5 CBM, conviene enviar por LCL.",
@@ -6067,9 +6068,9 @@
     "source": "学习与沟通用释义（非官方定义）",
     "updatedAt": "2026-06-23",
     "zh": {
-      "term": "VUC（智利海关统一估值）",
+      "term": "海关统一估值",
       "aliases": [],
-      "definition": "智利海关用于确定进口货物完税价格的统一估值系统。当申报价格明显低于市场价格时，海关可参考 VUC 数据库中的参考价格进行估价。",
+      "definition": "智利海关用于确定进口货物完税价格的统一估值系统。当申报价格明显低于市场价格时，海关可参考数据库中的参考价格进行估价。",
       "example": "某批电子产品申报价格低于 VUC 参考价格的 20%，海关可能要求提供补充证明或按 VUC 价格重新估价。",
       "commonMistake": "误以为只要买卖双方同意的价格就是海关接受的价格，VUC 系统可能推翻申报价格。",
       "practicalTip": "合理申报货物价格，避免与 VUC 参考价格偏差过大，必要时准备价格证明文件。",
@@ -6077,9 +6078,10 @@
       "note": "VUC 是智利海关打击低报价格的重要工具。"
     },
     "es": {
-      "term": "VUC（Valor Único de Consolidación）",
+      "term": "VUC",
       "aliases": [
-        "Valor Único de Consolidación"
+        "Valor Único de Consolidación",
+        "VUC（Valor Único de Consolidación）"
       ],
       "definition": "El VUC (Valor Único de Consolidación) es el sistema de valoración unificada de la Aduana de Chile para determinar el valor en aduana de las importaciones. Cuando el valor declarado es significativamente inferior al precio de mercado, la Aduana puede utilizar los precios de referencia del VUC para revaluar la mercancía.",
       "example": "Si el valor declarado de una partida de productos electrónicos es un 20% inferior al precio de referencia del VUC, la Aduana puede solicitar documentación adicional o revaluar según el VUC.",
@@ -6382,7 +6384,7 @@
     "zh": {
       "term": "ANZ / ANCE（墨西哥认证机构）",
       "aliases": [],
-      "definition": "墨西哥主要的认证机构之一，被墨西哥经济部授权进行 NOM 标准认证。ANCE 负责对电器、电子设备、建材等产品进行测试和认证。",
+      "definition": "墨西哥主要的认证机构之一，被墨西哥经济部授权进行官方标准认证。负责对电器、电子设备、建材等产品进行测试和认证。",
       "example": "出口到墨西哥的 LED 灯具通过 ANCE 进行 NOM 认证测试，获得合格证书。",
       "commonMistake": "误以为 ANCE 是政府部门，实际上它是被政府授权的民间认证机构。",
       "practicalTip": "选择 ANCE 或其他经济部授权的认证机构办理 NOM 认证，确保证书的有效性。",
@@ -6390,11 +6392,12 @@
       "note": "墨西哥有多家授权认证机构，ANCE 是最知名的之一。"
     },
     "es": {
-      "term": "ANZ / ANCE（Normalización y Certificación Electrónica）",
+      "term": "ANCE",
       "aliases": [
         "ANCE México",
         "Normalización y Certificación Electrónica",
-        "ANCE"
+        "ANCE",
+        "ANZ / ANCE（Normalización y Certificación Electrónica）"
       ],
       "definition": "ANZ/ANCE (Normalización y Certificación Electrónica, A.C.) es uno de los principales organismos de certificación en México, autorizado por la Secretaría de Economía para realizar la certificación NOM. ANCE realiza pruebas y certificación de productos eléctricos y electrónicos.",
       "example": "Las luminarias LED exportadas a México fueron sometidas a pruebas de certificación NOM ante ANCE.",
@@ -6449,11 +6452,11 @@
     "source": "学习与沟通用释义（非官方定义）",
     "updatedAt": "2026-06-23",
     "zh": {
-      "term": "Fraude Fiscal（墨西哥税务欺诈处罚）",
+      "term": "税务欺诈处罚",
       "aliases": [
         "低报价格处罚"
       ],
-      "definition": "Fraude Fiscal 在墨西哥海关语境中主要指进口时低报货物价格以逃避关税和增值税的行为。墨西哥 SAT 对此类行为处罚严厉，可处以货物价值 100%-300% 的罚款，严重者还可能面临刑事指控。",
+      "definition": "在墨西哥海关语境中主要指进口时低报货物价格以逃避关税和增值税的行为。墨西哥税务局对此类行为处罚严厉，可处以货物价值 100%-300% 的罚款，严重者还可能面临刑事指控。",
       "example": "某进口商因低报进口货物价格被 SAT 查处，被处以货物价值 200% 的罚款。",
       "commonMistake": "认为低报价格只是小问题，在墨西哥可能面临巨额罚款和刑事责任。",
       "practicalTip": "如实申报货物价值，保留完整的价格证明文件（合同、付款凭证等）。",
@@ -6461,10 +6464,11 @@
       "note": "墨西哥对低报价格的打击力度在拉美名列前茅。"
     },
     "es": {
-      "term": "Fraude Fiscal（México）",
+      "term": "Fraude Fiscal",
       "aliases": [
         "Subvaluación",
-        "subvaluación"
+        "subvaluación",
+        "Fraude Fiscal（México）"
       ],
       "definition": "El Fraude Fiscal en el contexto aduanero mexicano se refiere principalmente a la subvaluación de mercancías importadas para evadir el pago de aranceles e IVA. El SAT aplica sanciones severas, que pueden incluir multas del 100% al 300% del valor de la mercancía y posibles cargos penales.",
       "example": "Un importador fue sancionado por el SAT con una multa del 200% del valor de la mercancía por subvaluación.",
@@ -6981,7 +6985,7 @@
       "aliases": [
         "IRAM认证"
       ],
-      "definition": "Certificado IRAM 是阿根廷 IRAM 机构颁发的产品合格认证证书。受阿根廷法规强制要求的产品（如电气设备、燃气器具、安全防护用品等）必须通过 IRAM 认证测试，获得证书并在产品上贴附 IRAM 安全标志。",
+      "definition": "阿根廷标准化和认证机构颁发的产品合格认证证书。受阿根廷法规强制要求的产品（如电气设备、燃气器具、安全防护用品等）必须通过认证测试，获得证书并在产品上贴附安全标志。",
       "example": "出口到阿根廷的插头插座需获得 IRAM 2073 认证证书。",
       "commonMistake": "忽略 IRAM 认证要求，导致产品在阿根廷海关被扣留或无法在市场销售。",
       "practicalTip": "出口前确认产品是否需要 IRAM 认证，并提前安排测试和认证。",
@@ -6989,9 +6993,10 @@
       "note": "IRAM 认证通常需要在阿根廷或指定实验室进行测试。"
     },
     "es": {
-      "term": "Certificado IRAM（Argentina）",
+      "term": "Certificado IRAM",
       "aliases": [
-        "Certificación IRAM"
+        "Certificación IRAM",
+        "Certificado IRAM（Argentina）"
       ],
       "definition": "El Certificado IRAM es el documento de certificación de conformidad emitido por el IRAM de Argentina. Los productos sujetos a regulación obligatoria deben superar las pruebas de certificación IRAM y llevar la marca de seguridad.",
       "example": "Los enchufes y tomacorrientes exportados a Argentina deben contar con el certificado IRAM 2073.",
@@ -7014,7 +7019,7 @@
     "zh": {
       "term": "SENASA（阿根廷国家农业食品卫生与质量局）",
       "aliases": [],
-      "definition": "SENASA（Servicio Nacional de Sanidad y Calidad Agroalimentaria）是阿根廷负责农产品、食品和动植物卫生检疫的政府机构。进口到阿根廷的食品、农产品、动物产品、植物及植物产品等需要通过 SENASA 的检疫和审批，获取进口许可。",
+      "definition": "阿根廷负责农产品、食品和动植物卫生检疫的政府机构。进口到阿根廷的食品、农产品、动物产品、植物及植物产品等需要通过其检疫审批，并获得卫生证书。",
       "example": "进口到阿根廷的食品需要获得 SENASA 颁发的卫生证书和进口许可。",
       "commonMistake": "误以为 SENASA 只管出口检疫，实际上它也负责进口农产品和食品的审批。",
       "practicalTip": "出口食品和农产品到阿根廷前，提前了解 SENASA 的进口要求和审批流程。",
@@ -7022,10 +7027,11 @@
       "note": "SENASA 是阿根廷农业食品领域最重要的监管机构。"
     },
     "es": {
-      "term": "SENASA（Servicio Nacional de Sanidad y Calidad Agroalimentaria）",
+      "term": "SENASA",
       "aliases": [
         "SENASA Argentina",
-        "Servicio Nacional de Sanidad y Calidad Agroalimentaria"
+        "Servicio Nacional de Sanidad y Calidad Agroalimentaria",
+        "SENASA（Servicio Nacional de Sanidad y Calidad Agroalimentaria）"
       ],
       "definition": "El SENASA (Servicio Nacional de Sanidad y Calidad Agroalimentaria) es el organismo gubernamental argentino responsable de la sanidad agroalimentaria y fitozoosanitaria. Los alimentos, productos agrícolas y productos de origen animal y vegetal importados a Argentina requieren inspección y autorización del SENASA.",
       "example": "Los productos alimenticios importados a Argentina requieren la autorización de SENASA y el certificado sanitario correspondiente.",
@@ -8128,7 +8134,7 @@
       "aliases": [
         "运输时间"
       ],
-      "definition": "Transit Time 是指中国到拉美主要港口的海运运输时间。由于距离远，运输时效通常较长：到墨西哥西海岸约 20-25 天，到巴拿马中转后到南美西海岸约 30-40 天，到南美东海岸约 40-55 天。是否中转对运输时效影响很大。",
+      "definition": "中国到拉美主要港口的海运运输时间。由于距离远，运输时效通常较长：到墨西哥西海岸约 20-25 天，到巴拿马中转后到南美西海岸约 30-40 天，到南美东海岸约 40-55 天。是否中转对运输时效影响很大。",
       "example": "从上海到智利 San Antonio 港的运输时间约为 35-40 天（经巴拿马中转）。",
       "commonMistake": "低估运输时效，未充分考虑中转时间，导致交货延迟。",
       "practicalTip": "在合同中预留充足的运输时间，并考虑中转港可能的延误。",
@@ -8136,9 +8142,10 @@
       "note": "拉美航线运输时效受天气、港口拥堵和中转效率影响较大。"
     },
     "es": {
-      "term": "Transit Time（Latinoamérica）",
+      "term": "Transit Time",
       "aliases": [
-        "Tiempo de Tránsito"
+        "Tiempo de Tránsito",
+        "Transit Time（Latinoamérica）"
       ],
       "definition": "El Transit Time es el tiempo de transporte marítimo desde China hasta los principales puertos de América Latina. Debido a la larga distancia, los tiempos son prolongados: 20-25 días a la costa oeste de México, 30-40 días a la costa oeste de Sudamérica (vía Panamá), 40-55 días a la costa este de Sudamérica.",
       "example": "El tiempo de tránsito de Shanghai a San Antonio, Chile es de aproximadamente 35-40 días (con transbordo en Panamá).",
@@ -8202,7 +8209,7 @@
       "aliases": [
         "拼箱"
       ],
-      "definition": "Consolidado（也称 LCL - Less than Container Load）是指将多个发货人的小批量货物合并到一个集装箱中进行运输。对于中国到拉美的贸易，拼箱运输适合货量较小的出口商，可以降低单位运输成本。拉美主要港口均提供拼箱服务。",
+      "definition": "将多个发货人的小批量货物合并到一个集装箱中进行运输。对于中国到拉美的贸易，拼箱运输适合货量较小的出口商，可以降低单位运输成本。拉美主要港口均提供拼箱服务。",
       "example": "货量不足整箱时，可以选择拼箱运输到目的港，降低物流成本。",
       "commonMistake": "忽略拼箱在目的港的拆箱和仓储费用，可能导致总成本高于预期。",
       "practicalTip": "比较拼箱和整箱的总成本（包括起运港和目的港费用），选择最优方案。",
@@ -8210,10 +8217,11 @@
       "note": "拉美拼箱运输的拆箱费（desconsolidación）通常较高，需纳入成本核算。"
     },
     "es": {
-      "term": "Consolidado（Latinoamérica）",
+      "term": "Consolidado",
       "aliases": [
         "Consolidado",
-        "LCL"
+        "LCL",
+        "Consolidado（Latinoamérica）"
       ],
       "definition": "El Consolidado (también llamado LCL - Less than Container Load) consiste en agrupar mercancías de múltiples remitentes en un solo contenedor para el transporte. Es adecuado para exportadores con volúmenes pequeños en el comercio China-América Latina, reduciendo el costo unitario de transporte.",
       "example": "Para volúmenes insuficientes para un contenedor completo, se puede optar por el transporte en consolidado (LCL) al puerto de destino, reduciendo los costos logísticos.",
@@ -8451,7 +8459,7 @@
       "aliases": [
         "货运保险"
       ],
-      "definition": "Seguro de Carga 是指为运输过程中的货物购买的保险，覆盖货物在海运、内陆运输和仓储过程中可能遭受的损失或损坏。由于中国到拉美的运输距离远、时间长、中转多，货运保险尤为重要。",
+      "definition": "为运输过程中的货物购买的保险，覆盖货物在海运、内陆运输和仓储过程中可能遭受的损失或损坏。由于中国到拉美的运输距离远、时间长、中转多，货运保险尤为重要。",
       "example": "为这批运往智利的货物购买了货运保险，覆盖海运全程和目的港卸货。",
       "commonMistake": "忽略货运保险，或选择了保障范围不足的保险条款。",
       "practicalTip": "根据货物价值和风险程度选择合适的保险条款和保额。",
@@ -8459,9 +8467,10 @@
       "note": "中国到拉美的航线运输时间长、中转多，建议购买全面的货运保险。"
     },
     "es": {
-      "term": "Seguro de Carga（Latinoamérica）",
+      "term": "Seguro de Carga",
       "aliases": [
-        "Seguro de Carga"
+        "Seguro de Carga",
+        "Seguro de Carga（Latinoamérica）"
       ],
       "definition": "El Seguro de Carga es el seguro que cubre la mercancía contra pérdidas o daños durante el transporte marítimo, terrestre y almacenamiento. Dado que las rutas de China a América Latina son largas, con múltiples transbordos, el seguro de carga es especialmente importante.",
       "example": "Se contrató un seguro de carga para la mercancía con destino a Chile, que cubre todo el trayecto marítimo y la descarga en el puerto de destino.",
@@ -8709,7 +8718,7 @@
       "aliases": [
         "外汇管制"
       ],
-      "definition": "Control Cambiario 是指拉美部分国家对跨境资金流动实施的管制措施。阿根廷和委内瑞拉的外汇管制最为严格，进口商需要向央行申请外汇购买许可，且审批流程复杂、时间长。外汇管制严重影响跨境贸易的结算效率。",
+      "definition": "拉美部分国家对跨境资金流动实施的管制措施。阿根廷和委内瑞拉的外汇管制最为严格，进口商需要向央行申请外汇购买许可，且审批流程复杂、时间长。外汇管制严重影响跨境贸易的结算效率。",
       "example": "阿根廷进口商需要向 BCRA（阿根廷央行）申请外汇购买许可后才能支付进口货款。",
       "commonMistake": "忽略外汇管制对付款时间和流程的影响，导致收款严重延迟。",
       "practicalTip": "了解客户所在国家的外汇管制政策，在合同中预留充足的付款时间。",
@@ -8717,9 +8726,10 @@
       "note": "阿根廷的外汇管制政策变化频繁，需持续关注最新规定。"
     },
     "es": {
-      "term": "Control Cambiario（Latinoamérica）",
+      "term": "Control Cambiario",
       "aliases": [
-        "Control Cambiario"
+        "Control Cambiario",
+        "Control Cambiario（Latinoamérica）"
       ],
       "definition": "El Control Cambiario son las restricciones que algunos países de América Latina imponen sobre los flujos de capital transfronterizos. Argentina y Venezuela tienen los controles más estrictos, donde los importadores deben solicitar permisos del banco central para comprar divisas, con procesos complejos y prolongados.",
       "example": "El importador argentino debió solicitar la autorización cambiaria del BCRA (Banco Central de la República Argentina) antes de poder realizar el pago de la importación.",
@@ -9680,7 +9690,7 @@
       "aliases": [
         "商业发票"
       ],
-      "definition": "Factura Comercial 是拉美贸易中最重要的商业单据之一。拉美各国对商业发票的要求有所不同，但通常需要包含：买卖双方信息（含税务标识号）、货物描述、数量、单价、总金额、贸易条款（Incoterms）、原产地等。部分国家要求发票必须经过领事认证。",
+      "definition": "拉美贸易中最重要的商业单据之一。拉美各国对商业发票的要求有所不同，但通常需要包含：买卖双方信息（含税务标识号）、货物描述、数量、单价、总金额、贸易条款（Incoterms）、原产地等。部分国家要求发票必须经过领事认证或商会认证。",
       "example": "出口到墨西哥的商业发票必须包含进口商的 RFC 号和详细的货物描述。",
       "commonMistake": "商业发票信息不完整或不符合要求，导致清关延误。",
       "practicalTip": "了解目标国家的商业发票要求，确保发票内容完整合规。",
@@ -9688,9 +9698,10 @@
       "note": "拉美各国商业发票的要求差异较大，需逐国确认。"
     },
     "es": {
-      "term": "Factura Comercial（Latinoamérica）",
+      "term": "Factura Comercial",
       "aliases": [
-        "Factura Comercial"
+        "Factura Comercial",
+        "Factura Comercial（Latinoamérica）"
       ],
       "definition": "La Factura Comercial es uno de los documentos comerciales más importantes en el comercio con América Latina. Los requisitos varían por país, pero generalmente incluyen: información de comprador y vendedor (con identificación fiscal), descripción de mercancía, cantidad, precio unitario, monto total, Incoterms y origen.",
       "example": "La factura comercial para exportación a México debe incluir el RFC del importador y una descripción detallada de la mercancía.",
@@ -12240,7 +12251,7 @@
     "source": "学习与沟通用释义（非官方定义）",
     "updatedAt": "2026-06-23",
     "zh": {
-      "term": "Control cambiario（外汇管制）",
+      "term": "外汇管制",
       "aliases": [],
       "definition": "委内瑞拉外汇管理和汇兑限制可能影响进口付款、价格和结算安排。",
       "example": "委内瑞拉进口项目中，应提前确认“Control cambiario（外汇管制）”是否适用于该产品和交易模式。",
@@ -13080,7 +13091,7 @@
     "source": "学习与沟通用释义（非官方定义）",
     "updatedAt": "2026-06-23",
     "zh": {
-      "term": "IBNORCA（玻利维亚标准化与质量机构）",
+      "term": "标准化与质量机构",
       "aliases": [],
       "definition": "玻利维亚标准化和质量相关机构，部分产品技术合规可能涉及其标准或认证。",
       "example": "玻利维亚进口项目中，应提前确认“IBNORCA（玻利维亚标准化与质量机构）”是否适用于该产品和交易模式。",
@@ -13090,9 +13101,10 @@
       "note": "适用于中国企业与拉美客户、进口商、报关代理和物流服务商沟通时使用。"
     },
     "es": {
-      "term": "IBNORCA（Instituto Boliviano de Normalización y Calidad）",
+      "term": "IBNORCA",
       "aliases": [
-        "IBNORCA"
+        "IBNORCA",
+        "IBNORCA（Instituto Boliviano de Normalización y Calidad）"
       ],
       "definition": "Institución boliviana de normalización y calidad; ciertos productos pueden requerir normas o certificaciones relacionadas.",
       "example": "En una operación de importación en Bolivia, conviene confirmar si “IBNORCA（Instituto Boliviano de Normalización y Calidad）” aplica al producto y al régimen utilizado.",
@@ -23148,12 +23160,14 @@
     "zh": {
       "term": "站到站（全程拼箱）",
       "aliases": [],
-      "definition": "货代术语。Consolidación origen hasta desconsolidación destino",
+      "definition": "货代术语。从起运地集拼到目的地拆箱的全程拼箱运输服务。",
       "example": ""
     },
     "es": {
-      "term": "CFS-CFS (CFS to CFS)",
-      "aliases": [],
+      "term": "Consolidación origen hasta desconsolidación destino",
+      "aliases": [
+        "CFS-CFS (CFS to CFS)"
+      ],
       "definition": "Consolidación origen hasta desconsolidación destino",
       "example": ""
     }
@@ -23466,13 +23480,14 @@
     "zh": {
       "term": "货运保险",
       "aliases": [],
-      "definition": "货代术语，英文全称 Insurance。Seguro de transporte de mercancías",
+      "definition": "货代术语。为运输过程中的货物购买的保险，覆盖货物在运输和仓储过程中可能遭受的损失或损坏。",
       "example": ""
     },
     "es": {
-      "term": "INS",
+      "term": "Seguro de transporte de mercancías",
       "aliases": [
-        "Insurance"
+        "Insurance",
+        "INS"
       ],
       "definition": "Seguro de transporte de mercancías",
       "example": ""
